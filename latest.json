@@ -1,0 +1,33 @@
+{
+  "version": "3.0.2",
+  "versionCode": 16,
+  "tag": "v3.0.2",
+  "publishedAt": "2026-09-08T10:59:23.592Z",
+  "channels": [
+    "Android APK",
+    "iOS App Store"
+  ],
+  "notes": {
+    "Added": [
+      "**Race chat.** A live room for every race weekend, open to read without an account and to post once you sign in with Apple or Google. Replies, reactions, mentions, and a pinned banner for the message you were sent to. Every room message can push to your device, and you decide whether it does.",
+      "**Notification settings.** A screen of its own: session reminders and the news topic can each be switched off without touching system settings.",
+      "**Android home screen widgets**, including a 2×2 layout and a tall one.",
+      "**Report, block and delete.** Any message can be reported and any user blocked from a long press, and a chat account can be deleted in full from Settings without contacting anyone.",
+      "Championship points are topped up from OpenF1 when f1api has not published a round yet, so standings stop lagging a race behind."
+    ],
+    "Changed": [
+      "Session results, session end times and the starting grid now come from OpenF1, with f1api kept as the fallback.",
+      "The settings screen was rebuilt on shared sections and rows, and the theme was resynced with the Figma source."
+    ],
+    "Fixed": [
+      "Safety-car bands on the race dashboard were drawn wrong whenever a race was red-flagged: one band could run from lap 3 to the chequered flag. Full and virtual safety cars are also tracked separately now, and a 2026-season rename of the virtual safety car no longer files it as a full one.",
+      "A race stays in its race-week state until the race day is actually over.",
+      "Push tokens and notification payloads no longer reach release-build logs."
+    ],
+    "Removed": []
+  },
+  "apkUrl": "https://github.com/mbhusty/planb-releases/releases/download/v3.0.2/PlanB-android.apk",
+  "sizeBytes": 107533059,
+  "sha256": "6d35285b3237bcd9bfc6507c14fe602be51f622d8440d6c23adc6a814e0e4bbe",
+  "signingSha1": "e0582767e194f362f1c47aa4a4f7e80a0b6ce37b"
+}
