@@ -1,11 +1,60 @@
 {
-  "generatedAt": "2026-09-08T10:59:23.592Z",
+  "generatedAt": "2026-09-19T07:23:13.696Z",
   "releases": [
+    {
+      "version": "3.0.3",
+      "versionCode": 23,
+      "tag": "v3.0.3",
+      "publishedAt": "2026-09-19T07:23:13.696Z",
+      "channels": [
+        "Android APK",
+        "iOS App Store"
+      ],
+      "notes": {
+        "Added": [
+          "**Share what you are looking at.** A race weekend, a session result, either championship table and two sections of the race dashboard can each be sent out as a card. Every card carries a link that opens the app at exactly that screen, and a page on the web for anyone who does not have the app. Weekend cards show the circuit and say which time zone the times belong to. The race dashboard sends its classification, with the places each driver gained or lost since the start, or the position chart of the whole race, keeping the drivers you picked to compare.",
+          "**A countdown on upcoming weekends.** Each card says how long until its next session, so the schedule answers the question without being opened.",
+          "**Android update notice.** With no Google Play listing, a new build used to reach you only if you saw the post in the Telegram channel. The app now checks for one on launch and offers the download, and Settings has a \"Check for updates\" row. It never interrupts a launch: if the check fails, nothing happens.",
+          "Sepang joins the circuit outlines drawn on the schedule cards.",
+          "**Race chat marks where you left off.** Coming back to the room, a \"New messages\" line sits above the first message you have not seen yet.",
+          "**A race countdown on the lock screen and the watch face.** Days to the next Grand Prix, then hours on the last day, in three lock screen sizes and as an Apple Watch complication. Once a race is over it moves on to the next round by itself, without opening the app.",
+          "**Season progress widget.** One dot for every round, coloured by the team that won it, with the next circuit underneath — on the iPhone home screen and on Android."
+        ],
+        "Changed": [
+          "**Race chat reads like a conversation.** Other people's messages sit in bubbles beside their team colour, and the room header is one compact line with the full race name instead of a tall blue block.",
+          "The share button has a fill and the share symbol of your platform, so in the light theme it no longer looks switched off.",
+          "The session results sheet says which session it is showing. Opening qualifying and the race in turn, only the time column told them apart.",
+          "The standings screens name the table and the season they are showing.",
+          "Android builds are published to a permanent address with a signed APK, a checksum and full release notes, and are listed at <https://p1anb.vercel.app/download>. The Telegram channel is where releases are announced rather than where the file lives.",
+          "Opening and closing a standings card is one movement rather than three: the card, its border, the arrow and the points block travel together, in the same time as before. Race weekend cards on the schedule open and close the same way.",
+          "The schedule opens with the next race weekend unfolded, not only during race week.",
+          "**The chat tab between weekends says when to come back.** It shows the day and time the room opens over the outline of the next circuit, with a live countdown only in the last two days, and the race by its short name instead of the full sponsored title. \"Remind me\" sits right under it, your profile card opens account settings, and the previous weekend's room is one tap away to read.",
+          "**The chat account screen shows what you have done in the chat.** Your profile card counts your messages, the race weekends you posted in and the reactions other people left, and has its own Edit button. The rest is two short groups: notifications and blocked users (with the count visible before you open it), then how you signed in, sign out and account deletion.",
+          "An open standings card no longer shows the arrow: it fades out and the points total takes its place.",
+          "The race week card offers the race dashboard as soon as the race data is in, instead of waiting for the weekend to move to Past at midnight."
+        ],
+        "Fixed": [
+          "The share sheet no longer grows past the top of the screen on a long card, such as a race classification, and the Share button stays on screen: the preview scrolls beneath it.",
+          "A screen opened from outside the app — a link, or a chat mention tapped while the app was closed — had a back button that did nothing, and no way out short of closing the app. It now goes back to the schedule.",
+          "Tapping a mention notification while the app was closed opened the app but not the conversation it pointed at. It now lands on the message it named, and a second mention in a room you already have open scrolls to it too.",
+          "Opening driver cards in quick succession could show one driver's last five races under another driver's name, most often on Android. Results and team line-ups no longer belong to the row they were loaded in.",
+          "A card whose results failed to load said it had no results and never tried again. It now says the load failed and retries when tapped.",
+          "The race chat header showed LIVE for the whole weekend, even hours before a session. It now shows only while one is running.",
+          "An empty strip the height of the tab bar sat between the last chat message and the input field.",
+          "**The Apple Watch app gets its data from your iPhone.** It could never read what the phone saved and fetched the schedule over the network on every launch instead; it now also follows the accent colour you picked."
+        ],
+        "Removed": []
+      },
+      "apkUrl": "https://github.com/mbhusty/planb-releases/releases/download/v3.0.3/PlanB-android.apk",
+      "sizeBytes": 107630829,
+      "sha256": "b28378df8379ec10714e715e99a77226276e2f068a7b0336ce88fb39a913246f",
+      "signingSha1": "e0582767e194f362f1c47aa4a4f7e80a0b6ce37b"
+    },
     {
       "version": "3.0.2",
       "versionCode": 16,
       "tag": "v3.0.2",
-      "publishedAt": "2026-09-08T10:59:23.592Z",
+      "publishedAt": "2026-09-08T10:44:53.639Z",
       "channels": [
         "Android APK",
         "iOS App Store"
