@@ -1,11 +1,44 @@
 {
-  "generatedAt": "2026-09-19T07:25:20.478Z",
+  "generatedAt": "2026-10-05T12:56:46.613Z",
   "releases": [
+    {
+      "version": "3.0.4",
+      "versionCode": 28,
+      "tag": "v3.0.4",
+      "publishedAt": "2026-10-05T12:56:46.613Z",
+      "channels": [
+        "Android APK",
+        "iOS App Store"
+      ],
+      "notes": {
+        "Added": [
+          "**Live during the session.** While a session runs, a strip under the race chat header and above the schedule shows the track status — green, yellow, safety car, VSC or red flag. Tapping it opens live race control, and a Standings tab with gaps, intervals, tyres and pit stops.",
+          "**The race on your Lock Screen** (iOS 17.2 and later). Qualifying, the sprint or the race in the Dynamic Island and on the Lock Screen: track status, the lap count, the top three with gaps and your team's driver. Tap \"Follow on Lock Screen\" in race control, or turn on \"Live Activity during sessions\" in Settings → Notifications to have it start by itself.",
+          "**Track status alerts.** An optional push for a safety car, a VSC, a red flag and the return to green, under Settings → Notifications. Off by default.",
+          "**Every lap, sector by sector.** Tap a driver in the classification to see each lap split into sectors, coloured the way the broadcast does it, with tyres, pit stops and deleted laps struck through with the reason. The best lap and the ideal lap sit on top and can be shared as a card.",
+          "**Head to head in one race.** Pick two drivers to see the gap between them lap by lap, with pit stops and safety car periods, their best sectors and a score.",
+          "**Teammate battle.** On a driver's standings card, compare two drivers across the season: qualifying, races, points, wins, podiums and poles, with a dot for every round. Either driver can be swapped."
+        ],
+        "Changed": [
+          "Safety cars, red flags, penalties and deleted laps now appear in the race chat right where they happened."
+        ],
+        "Fixed": [
+          "The race chat stays open when rain or a red flag pushes the race past its scheduled slot.",
+          "The dark theme no longer flashes white while switching screens.",
+          "Results that are not published yet read \"Update in progress\" instead of showing an error."
+        ],
+        "Removed": []
+      },
+      "apkUrl": "https://github.com/mbhusty/planb-releases/releases/download/v3.0.4/PlanB-android.apk",
+      "sizeBytes": 107684261,
+      "sha256": "7d1e966510bf493e7f44aa012e7e8a40aae91876189ffd5ec362f2b67e7a5bd7",
+      "signingSha1": "e0582767e194f362f1c47aa4a4f7e80a0b6ce37b"
+    },
     {
       "version": "3.0.3",
       "versionCode": 23,
       "tag": "v3.0.3",
-      "publishedAt": "2026-09-19T07:25:20.478Z",
+      "publishedAt": "2026-09-19T07:23:13.696Z",
       "channels": [
         "Android APK",
         "iOS App Store"
