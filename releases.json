@@ -1,6 +1,59 @@
 {
-  "generatedAt": "2026-10-05T12:56:46.613Z",
+  "generatedAt": "2026-10-15T09:16:02.957Z",
   "releases": [
+    {
+      "version": "3.0.5",
+      "versionCode": 36,
+      "tag": "v3.0.5",
+      "publishedAt": "2026-10-15T09:16:02.957Z",
+      "channels": [
+        "Android APK",
+        "iOS App Store"
+      ],
+      "notes": {
+        "Added": [
+          "**Pick the podium.** During race week, the weekend card asks who will finish first, second and third. Picks close when qualifying starts — on a sprint weekend, the main qualifying on Saturday — and are scored a couple of hours after the race: 3 points for a driver in the right place, 1 for a podium driver in the wrong one, and 2 more for the exact podium. The season table ranks everyone, and the top ten show their place next to their name in race chat.",
+          "**Play before you sign in.** You can build a podium straight away; it stays on your phone until you lock it in. Signing in is asked only then, together with what it gives you, and your podium is saved as soon as you are in.",
+          "**Compare with the paddock.** Once your podium is locked in, see which drivers everyone else put on each step, and whether your pick was a bold call. It appears once ten people have made their picks for the round.",
+          "**Your podium stays with you after picks close.** The podium button on the weekend card turns into your podium — \"VER NOR LEC\" — and then into your points once the round is scored, on the Past card as well. The weekend card keeps all its actions in one row under the schedule — live chat, the race dashboard, your podium and share — instead of a stack of wide buttons. The pick screen shows the real podium next to yours, and you can share your podium as an image. Predictions open from the Chat tab, where \"Your rounds\" lists every round you called this season.",
+          "**More on Apple Watch.** Three pages to scroll through with the Digital Crown: the next session with a live countdown, the whole weekend, and the top of both championships. The season calendar is one tap away.",
+          "**Twelve reactions in race chat.** 🏁 👏 🐐 🤡 💀 🍿 join the six you had, laid out in two rows when you press and hold a message.",
+          "**Double-tap a message to react with 🔥.** A second double-tap leaves it in place rather than taking it off."
+        ],
+        "Changed": [
+          "**A new first launch.** Five start lights mark the steps and go out together at the end. Each step shows the real app — the next race in your time zone, the race dashboard, the widgets — and one step lets you pick your team, which sets the app's colour. It shows once on updating too, starting from the team colour you already chose.",
+          "The Apple Watch widget moves up in the Smart Stack in the last day before a race and while it runs.",
+          "**The position chart reads at a glance.** It counts in laps: every lap takes the same width, so the chart lines up with the tyre strategy and the gap chart below it, and each driver's line takes one step per lap instead of every momentary swap, so overtakes show as lines crossing rather than a comb of spikes. The top three are in colour and the rest in grey, with a teammate dashed; the starting order runs down the left and the finishing order down the right. Tap a name on either side to follow that driver, or drag across the chart to see the order on any lap. The zoom buttons and the row of driver chips are gone, and the safety car and VSC are labelled on their bands. The shared card draws it the same way.",
+          "**One kind of screen title.** Every screen names itself the same way, in plain case rather than capitals, and buttons no longer shout either.",
+          "**The predictions table explains itself.** Before the first round is scored, it shows how points are earned and takes you straight to this round's podium. Picking a podium shows each driver's team, marks empty steps with a dashed outline, and puts the scoring rules above the list instead of after twenty drivers.",
+          "**The whole weekend on the medium iPhone widget.** It used to show only qualifying and the race, so on a sprint weekend practice, sprint qualifying and the sprint were missing. It now lays the weekend out day by day in your time zone, dims what is over, marks the next session and counts down to it rather than to the race. Above that: the full race name, the circuit and where it is.",
+          "**Unread chat on the app icon.** While a race weekend is on, the PlanB icon shows how many messages in race chat you have not read yet, so you can see the room is busy without opening the app. It clears when you open the chat.",
+          "**A reminder before podium picks close.** Picks close when qualifying starts; an hour before that you get a reminder if you have not picked a podium for the round yet. In that last hour the \"Pick the podium\" button on the weekend card and the lock button count down the minutes, and the card button goes away when picks close. The reminder can be switched off in Settings → Notifications.",
+          "**Share the top ten from race control.** The share button there sends the first ten as they stand right now — gaps, intervals, tyres and who is in the pits in a race, best laps and the cut in qualifying — with the track status and the lap or qualifying part. It used to send the last few race control messages.",
+          "**The Live Activity starts by itself.** Five minutes before qualifying, a sprint or the race, the session appears on the Lock Screen and in the Dynamic Island without opening the app (iOS 17.2 and later), marked \"Starting soon\" until the lights go out. It is on by default and can be switched off in Settings → Notifications; the \"Follow on Lock Screen\" button on race control is gone.",
+          "**A clearer menu when you press and hold a message.** The message itself sits on top with its time, then the reactions, then Reply and Mention, with Report and Block below in a quieter list. Reporting now asks what is wrong — spam, harassment, hate speech or something else — before you add any details.",
+          "**Replying gets you typing.** Swiping a message, tapping Reply or Mention opens the keyboard straight away, and a reply arrow appears under the message as you swipe. With VoiceOver, Reply and the 🔥 reaction are in the message's actions.",
+          "**The track status above race chat looks like what it is.** It sits in its own panel with an arrow, so it is clear that a tap opens race control, and in a race or sprint a thin bar under it fills lap by lap in the colour of the track status. The same panel is at the top of the schedule, where it shrinks to a single line while you scroll the races.",
+          "**A half-written message waits for you.** Leave race chat to check the standings and come back: your text and the message you were replying to are still there."
+        ],
+        "Fixed": [
+          "**Widgets now move on after the race.** The Next Race widget kept showing `LIVE` all evening after the flag, on iPhone and Android. Three hours after the start it now switches to the next round by itself, without opening the app, and its countdown stays accurate between updates.",
+          "The season progress widget colours the round that has just finished as soon as you open the app, instead of waiting a day or more for the result to appear.",
+          "On Apple Watch, a finished race no longer shows \"Race week\" until the end of the week.",
+          "**Race dashboard after a delayed start.** At the rain-delayed Bahrain Grand Prix in Malaysia, the position chart sat flat for an hour and a half and then stopped after six laps, so Leclerc, fourth, appeared to finish eighteenth and no safety car was shown. The chart now runs from the real start to the flag, on every race — normal ones had lost their last few minutes too.",
+          "**Tyre strategy after a safety-car start.** The strategy chart showed tyre changes that never happened and missed ones that did — Verstappen on softs from lap 2, Piastri with a single lap on hards, Bottas with a stop he never made. Stints now follow the pit stops, and a VSC that turns into a full safety car ends where the safety car begins.",
+          "**Qualifying shows Q1, Q2 or Q3 instead of a lap count**, on race control, above the chat and on the Lock Screen. Laps are counted only in a race or a sprint.",
+          "In the dark theme the iPhone widgets use a lighter blue for the round number, the countdown and the race time, which were hard to read on black.",
+          "Opening race chat during a session flashed a block of race control messages for a moment before the conversation loaded. The room now shows its loading state until the messages are in.",
+          "A removed chat message no longer offers Reply or reactions, which the chat turned down anyway."
+        ],
+        "Removed": []
+      },
+      "apkUrl": "https://github.com/mbhusty/planb-releases/releases/download/v3.0.5/PlanB-android.apk",
+      "sizeBytes": 107729029,
+      "sha256": "f69ccbcaad97840bf01834fadb99f2ddc0209ea7f19d44822691279ecb8ea9cb",
+      "signingSha1": "e0582767e194f362f1c47aa4a4f7e80a0b6ce37b"
+    },
     {
       "version": "3.0.4",
       "versionCode": 28,
