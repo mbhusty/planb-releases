@@ -1,6 +1,57 @@
 {
-  "generatedAt": "2026-10-15T09:16:02.957Z",
+  "generatedAt": "2026-10-29T08:08:02.036Z",
   "releases": [
+    {
+      "version": "3.0.6",
+      "versionCode": 45,
+      "tag": "v3.0.6",
+      "publishedAt": "2026-10-29T08:08:02.036Z",
+      "channels": [
+        "Android APK",
+        "iOS App Store"
+      ],
+      "notes": {
+        "Added": [
+          "**Title fight.** Above the drivers and constructors standings: how many points are left, who can still catch the leader, and what the leader needs to clinch it at the next round — \"with a win, Russell 10th or lower\". Once it is decided, the card names the champion and the round where the title was won, with a trophy in the team's colour.",
+          "**Circuit facts.** An open race card gets a Circuit row with the corners and laps. Tap it for the track map, the circuit type, what a pit stop costs with and without a Safety Car, and who won and took pole there last year.",
+          "**Weather for the weekend.** The same circuit sheet has a row for every session starting within a week: the sky at the start, or the risk of rain across the whole session, plus the temperature and the wind. \"Drying track\" means it rained before the start.",
+          "**Share the circuit.** The circuit sheet has a Share button: the track, its corners and laps, and the weekend weather on one card.",
+          "**iPhone Duo.** On the outer display, and on the inner one in landscape, the tab bar stands at the side next to the camera, the way the system's does, and Back and Share move there too. Nothing hides under the side status bar.",
+          "**Side by side on big screens.** On the open iPhone Duo, an iPad or an open foldable, the schedule shows the race dashboard next to the list, the drivers standings show a season head to head, settings open their pages on the right, and during a session the chat shows live timing beside the room, however you opened it. On iPad the tab bar moves to the top; on a wide Android screen it becomes a side rail.",
+          "**Ask Siri when the next race is.** \"When is the next race in PlanB?\" answers without opening the app. Shortcuts can open the schedule, the standings, the chat, race control or predictions, and Spotlight finds this season's rounds and drivers. iOS only; Siri understands the phrases in English.",
+          "**Bring the Live Activity back.** Swiped it off the Lock Screen by accident? During qualifying, a sprint or the race, the live screen shows \"Show on Lock Screen\" to put it back.",
+          "**One stack per race weekend.** On iOS, session reminders and race chat notifications for the same weekend are grouped together in Notification Center."
+        ],
+        "Changed": [
+          "**Positions first.** During a session the schedule shows the top three under the track status, with the latest race control message below. The live screen opens on positions; race control is the second tab, and a flag alert still opens it directly.",
+          "**Share cards stand out in a chat.** Every card you share now has a blue header cut by a red-and-white kerb, with the city of the race in big slanted type. The race start is the largest thing on a weekend card, the leader of a standings or a result gets their own row (\"K. Antonelli\"), and the top 10 fits on one card. The rest of the card follows your light or dark theme.",
+          "**Predictions open faster.** Pick the podium shows the drivers you already have instead of waiting for the network, and both prediction screens show their shape while they load — the podium is there at once, only the names fill in.",
+          "**Race chat keeps up.** Typing no longer slows the room down, the chat loads even before its live connection is up, and after a reconnect it fills in every message you missed. A message that failed to send can be removed, and its text goes back to the message box.",
+          "On iOS, countdown digits roll instead of jumping.",
+          "A support link pasted into a message opens, with or without `https://`.",
+          "Rotating the phone is no longer locked to portrait.",
+          "Bottom sheets stay phone-sized and centred on wide screens.",
+          "Built on Expo SDK 58 (React Native 0.88)."
+        ],
+        "Fixed": [
+          "Driver numbers are right again: Norris is 1 and Verstappen 3, not their old permanent numbers.",
+          "On iOS, sent messages and quoted replies no longer lose their text, and a reply bubble is as wide as its quote.",
+          "After you send a long message, the message box shrinks back to one line.",
+          "Choosing \"Skip\" for notifications during onboarding means it: the app no longer shows the system prompt on the next launch.",
+          "Looking at last season in Settings no longer cancels your session reminders.",
+          "Retry on the error sheet now actually loads again, and a slow connection gives up after 20 seconds instead of hanging.",
+          "A finished race leaves Upcoming on time, even if the app stayed open in the background.",
+          "A Live Activity never starts empty when the positions cannot be read, and an old one from the same session is replaced instead of staying beside it.",
+          "Widgets draw the track and the rows properly in the tinted and clear Home Screen styles.",
+          "Turning the phone no longer leaves the app drawn at the old width with a black band beside it."
+        ],
+        "Removed": []
+      },
+      "apkUrl": "https://github.com/mbhusty/planb-releases/releases/download/v3.0.6/PlanB-android.apk",
+      "sizeBytes": 111742652,
+      "sha256": "148f0c9b4a11f7417e4407b643c1c25f4bdc9b3b6189dec36aa4f91b3127313e",
+      "signingSha1": "e0582767e194f362f1c47aa4a4f7e80a0b6ce37b"
+    },
     {
       "version": "3.0.5",
       "versionCode": 36,
