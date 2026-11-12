@@ -1,32 +1,54 @@
 {
-  "version": "3.0.7",
-  "versionCode": 48,
-  "tag": "v3.0.7",
-  "publishedAt": "2026-11-04T09:51:59.231Z",
+  "version": "3.0.8",
+  "versionCode": 54,
+  "tag": "v3.0.8",
+  "publishedAt": "2026-11-12T18:55:56.844Z",
   "channels": [
     "Android APK",
     "iOS App Store"
   ],
   "notes": {
-    "Added": [],
+    "Added": [
+      "**Player profiles.** Tap a name in race chat or a row in the predictions table to see someone's season: place, form, trophies, achievements and your score against them.",
+      "**PlanB Paddock Pass.** A card for your season, with a tier that moves after every race. Tilt your phone and the foil catches the light. Share it from your own profile, on its lanyard. Moderators carry a Race Control pass.",
+      "**Trophies and achievements.** The top three of every round win that circuit in gold, silver or bronze. Wear any award next to your name in chat.",
+      "**A new reaction, 💯.** Reactions now sit in one row you can swipe.",
+      "**Your result after the race.** A notification with your points and where you moved, and a recap on the round's screen. Switch it off under Notifications.",
+      "**Bonus picks.** Pole, Safety Car and a teammate battle, one tap each. They show in your recap now and count toward the table from 2027."
+    ],
     "Changed": [
-      "**Quieter chat.** Mentions and replies no longer drop a banner while you are in the app; the dot on the Chat tab tells you.",
-      "**\"Live data is paused\"** is now two calm lines, and you can swipe it away.",
-      "**One reply arrow.** Swiping a message to reply shows one arrow, not two.",
-      "**Past first.** After the final race, or in a past season, the schedule opens on Past instead of an empty list.",
-      "**Early in a season** the title card shows the leader and the gap until the next round can decide it."
+      "**Pick the podium, rebuilt.** Your top three are a poster in team colours. Drag anyone up, hold the button until the five lights go out, then answer the bonus questions one at a time. What you called sits on a ticket you can share, and after the race the same ticket shows what every pick earned.",
+      "**A Profile tab instead of Settings.** Your PlanB Paddock Pass is one tap away, and Settings sit behind the gear, in clear groups with each value shown up front. Name, team and blocked users move there from the chat account screen, which is gone.",
+      "**Notifications, sorted by what they are about**: race weekend, during the race, predictions, race chat and news from PlanB.",
+      "**One place per player in the season table.** Level on points and exact podiums, whoever called it earlier ranks higher.",
+      "**Profiles are for signed-in players.** Tapping a name asks you to sign in first, then opens the profile.",
+      "**Report any player** from their profile, whether or not they have written in chat.",
+      "**Trophies and scoring rules open in a sheet** in the app's own look instead of a system alert.",
+      "**Race data from PlanB's own source**, built from Jolpica and OpenF1. Every version has read it through an update since 5 November; 3.0.8 has it built in. Results reach the standings soon after the flag."
     ],
     "Fixed": [
-      "**PlanB opens again on iOS 16 and 17.** 3.0.6 closed right after launch on iPhones and iPads that are not on iOS 18 yet. Android was not affected.",
-      "**The Live Activity follows the session from the start.** It no longer sits on \"Updating…\" when PlanB was closed as it appeared on the Lock Screen.",
-      "**Live timing on iPad.** Next to the chat it no longer shows \"Something went wrong\".",
-      "**No early champion.** The title fight moves only after a race or a sprint, so a qualifying no longer crowns anyone.",
-      "**The race dashboard is never empty.** Position changes and Lap times stayed blank when practice messages were filed under the race, as in Mexico City."
+      "**The new champion on race day.** The standings announce a title as soon as the deciding race is in the table, instead of hours later.",
+      "**Apple Watch on its own.** Away from your iPhone, the watch app and its complications refresh the schedule again. They still asked the race data source that shut down on 5 November.",
+      "**Standings on a small watch.** The leader goes by surname like everyone else, so the name no longer cuts off on 40 and 41 mm.",
+      "**Live Activity after the flag.** No more \"Updating…\" on the Lock Screen. A quiet stretch in a session leaves the last positions up, and when the session ends the activity says Finished and clears itself half an hour later.",
+      "**Your bonus picks stay put.** Locking a podium again no longer wipes the bonus answers you had not touched, and the lock button waits until your saved prediction has loaded.",
+      "**Any accent colour stays readable.** Links, labels and the active tab darken or lighten against the background, so a yellow accent reads on white and a deep blue reads in the dark theme.",
+      "**Blocking means gone.** A blocked person no longer lights the unread dot, counts in reactions or reaches you with a mention notification.",
+      "**One account at a time.** Signing in as someone else no longer carries over drafts, read marks or the block list, and a phone stops getting mentions for an account that is no longer signed in on it.",
+      "**Quotes of removed messages** clear as soon as the message is removed.",
+      "**VoiceOver reads the message**, then says what a long press does.",
+      "**Weekend reminders follow the schedule** when any session moves, not only the race.",
+      "**A message that did not send is not lost.** Leave the chat while it shows Retry and the text waits in the message field when you come back. Messages the server turned down no longer count toward the sending limit.",
+      "**Tapping a notification that opens PlanB** lands on the chat, race control or the round it was about, instead of the schedule.",
+      "**Tyre strategy to scale.** A driver who retired early shows short bars, not a full race.",
+      "**Race data right after the flag.** Positions and tyres that are still missing a few minutes after the race fill in later, instead of staying empty.",
+      "**Trophies read in the light theme**, and the pole grid fits four across on the smallest iPhones.",
+      "**Pole, checked again.** A pole taken away after qualifying is corrected in the bonus points."
     ],
     "Removed": []
   },
-  "apkUrl": "https://github.com/mbhusty/planb-releases/releases/download/v3.0.7/PlanB-android.apk",
-  "sizeBytes": 111743972,
-  "sha256": "1fc0cc4ea3eef98964c2a97a21839ea6fa8336fca75e70cdafb873e55beeab01",
+  "apkUrl": "https://github.com/mbhusty/planb-releases/releases/download/v3.0.8/PlanB-android.apk",
+  "sizeBytes": 111815080,
+  "sha256": "46545ab5ef915a4654fe3bb2446b7d6618abbae5f88ee1f5907b4b6a334cab7d",
   "signingSha1": "e0582767e194f362f1c47aa4a4f7e80a0b6ce37b"
 }
